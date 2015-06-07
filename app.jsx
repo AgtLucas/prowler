@@ -17,3 +17,5 @@ export default App extends React.Component {
     )
   }
 }
+
+React.render(<App />, document.getElementById('main-root'));
