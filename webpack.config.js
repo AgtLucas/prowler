@@ -3,7 +3,7 @@ const path = require('path');
 
 module.exports = {
   entry: {
-    app: __dirname + 'app.jsx'
+    app: __dirname + 'assets/js/app.jsx'
   },
 
   output: {
