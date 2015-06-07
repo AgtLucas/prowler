@@ -1,15 +1,15 @@
 import React from 'react/addons';
 
-export default App extends React.Component {
+export default class App extends React.Component {
   // ES6 constructor
-  constructor(props) {
-    super(props);
-  }
-
-  // Initial State
-  getInitialState() {
-
-  }
+  // constructor(props) {
+  //   super(props);
+  // }
+  //
+  // // Initial State
+  // getInitialState() {
+  //
+  // }
 
   render() {
     return(
