@@ -16,13 +16,13 @@ class ContentToggle extends React.Component {
   }
 
   toggle() {
-    this.setState({showDetails: !this.state.showDetails.bind});
+    this.setState({showDetails: !this.state.showDetails});
   }
 
   render() {
     return(
       <div>
-        <div onClick={this.toggle}>{this.props.summary}</div>
+        <div onClick={this.toggle.bind(this)}>{this.props.summary}</div>
         <div>{this.renderDetails()}</div>
       </div>
     )
